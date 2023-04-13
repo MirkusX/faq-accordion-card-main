@@ -1,9 +1,13 @@
+import { StyledDiv, StyledSection } from "../StyledComponents/StyledComponents";
+
 export const Faq = () => {
   return (
-    <section>
-      <div>
-        <h1>FAQ</h1>
-      </div>
-    </section>
+    <StyledSection>
+      <StyledDiv>
+        <div>
+          <h1>FAQ</h1>
+        </div>
+      </StyledDiv>
+    </StyledSection>
   );
 };
