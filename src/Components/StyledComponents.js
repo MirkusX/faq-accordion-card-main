@@ -11,4 +11,9 @@ export const StyledSection = styled.section`
 export const StyledDiv = styled.div`
   width: 70%;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3em;
 `;
+
+export const CollapsibleDiv = styled.div``;
