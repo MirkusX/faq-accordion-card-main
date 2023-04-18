@@ -11,6 +11,7 @@ export const StyledSection = styled.section`
   justify-content: center;
   align-items: center;
   display: flex;
+  text-align: left;
 `;
 
 export const StyledDiv = styled.div`
@@ -34,6 +35,11 @@ export const ImageDiv = styled.div`
 
 export const StyledButton = styled.button`
   border: none;
-  padding: 1em;
+  padding: 1em 0;
   background-color: white;
+`;
+
+export const StyledP = styled.p`
+  color: gray;
+  font-size: 0.7rem;
 `;

@@ -6,6 +6,7 @@ import {
   ImageDiv,
   StyledButton,
   ArrowDown,
+  StyledP,
 } from "../Components/StyledComponents";
 import woman from "../Images/woman.svg";
 import { initialState, reducer } from "../Components/useReducer";
@@ -33,7 +34,7 @@ export const Faq = () => {
                   {item.title} <ArrowDown />
                 </StyledButton>
                 <CollapsibleDiv>
-                  {state.collapseOne && <p>{item.expanded}</p>}
+                  {state.collapseOne && <StyledP>{item.expanded}</StyledP>}
                 </CollapsibleDiv>
               </>
             );
